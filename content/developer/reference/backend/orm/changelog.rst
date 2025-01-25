@@ -4,6 +4,11 @@
 Changelog
 =========
 
+Odoo Online version 18.2
+========================
+
+- Namespaces for odoo PEP420  # XXX
+
 Odoo Online version 18.1
 ========================
 
