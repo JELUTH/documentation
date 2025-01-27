@@ -8,7 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< 17.0
 "POT-Creation-Date: 2024-12-02 12:38+0000\n"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+"POT-Creation-Date: 2024-11-04 08:54+0000\n"
+=======
+"POT-Creation-Date: 2025-01-27 14:31+0000\n"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -525,6 +531,7 @@ msgstr ""
 msgid "View of how recipient filters can be customized in Odoo Email Marketing."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/email_marketing.rst:416
 msgid "To reveal the sub-menu options within the filter rule fields, click each field, and make the desired selections, until the preferred configuration has been achieved."
 msgstr ""
@@ -534,6 +541,13 @@ msgid "The number of :guilabel:`records` in the database that match the configur
 msgstr ""
 
 #: ../../content/applications/marketing/email_marketing.rst:427
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/email_marketing.rst:260
+#: ../../content/applications/marketing/events/event_essentials.rst:191
+=======
+#: ../../content/applications/marketing/email_marketing.rst:260
+#: ../../content/applications/marketing/events/event_essentials.rst:193
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgid "Some sub-menu options in the first rule field allow for a second choice to provide even more specificity."
 msgstr ""
 
@@ -3239,256 +3253,712 @@ msgstr ""
 msgid "There are two ways to create and configure an event template in Odoo *Events*."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:41
 msgid "**On the dashboard**, by navigating to :menuselection:`Events app --> Configuration --> Event Templates` and clicking the :guilabel:`New` button in the upper-left corner. Doing so reveals a blank event template form that can be customized in a number of different ways."
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:44
 msgid "**On an event form itself**. Start by typing the name of a new event template in the *Template* field, and click :guilabel:`Create and edit...` from the resulting drop-down menu. Doing so reveals a *Create Template* pop-up window, featuring all the same configurable fields and elements found on a standard event template form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:46
+msgid ":guilabel:`Date`: includes the start and end dates/times for the event."
 msgstr ""
 
+#: ../../content/applications/marketing/events/event_essentials.rst:47
+msgid ":guilabel:`Timezone`: covers the timezone for when the event is taking place."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:46
+msgid ":guilabel:`Date`: when the event is scheduled to take place (expressed in your local timezone on the form view)."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
+msgstr ""
+
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:50
 msgid "Clicking :guilabel:`Create \"[template name]\"` from the resulting drop-down menu, via the *Template* field on an event form creates the event template in the database, but does **not** present the user with the *Create Template* pop-up window."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:48
+msgid ":guilabel:`Template`: choose from a pre-built event template or build a custom one and connect it here."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:48
+msgid ":guilabel:`Display Timezone`: indicates the timezone in which the event dates/times will be displayed on the website."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:54
 msgid "The event template would have to be modified, by selecting it on the *Event Templates* page (:menuselection:`Events app --> Configuration --> Event Templates`)."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:50
+msgid ":guilabel:`Tags`: add tags to indicate briefly what the event is for (e.g. `tradeshow`). Tags help better organize event cards in the kanban and are useful when using search filters during reporting periods."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:50
+msgid ":guilabel:`Template`: choose from a pre-built event template or build a custom one and connect it here."
 msgstr ""
 
+#: ../../content/applications/marketing/events/event_essentials.rst:52
+msgid ":guilabel:`Tags`: add tags to indicate briefly what the event is for (e.g. `tradeshow`). Tags help better organize event cards in the kanban and are useful when using search filters during reporting periods."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
+msgstr ""
+
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:58
 msgid "Event template form"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:53
+msgid ":guilabel:`Organizer`: detail the organizer(s) for the event. This field is usually the company that owns the Odoo database, or a vendor."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:55
+msgid ":guilabel:`Organizer`: detail the organizer(s) for the event. This field is usually the company that owns the Odoo database, or a vendor."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:60
 msgid "All the fields on a standard :guilabel:`Event Template` form are *also* on the *Create Template* pop-up window, accessible via the *Template* field on an event form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:55
+msgid ":guilabel:`Responsible`: name the point person who is responsible for organizing the event."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:57
+msgid ":guilabel:`Responsible`: name the point person who is responsible for organizing the event."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:-1
 msgid "A standard event template form in the Odoo Events application."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:56
+msgid ":guilabel:`Website`: indicate which Odoo website(s) the event event should be published to."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:58
+msgid ":guilabel:`Website`: indicate which Odoo website(s) the event event should be published to."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:67
 msgid "Start by providing the event template with a name in the :guilabel:`Event Template` field, located at the top of the form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:57
+msgid ":guilabel:`Venue`: list the venue details here if it's a new record, or choose from an existing location."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:59
+msgid ":guilabel:`Venue`: list the venue details here if it's a new record, or choose from an existing location."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:70
 msgid "Beneath that field, there is a series of selectable checkboxes, all of which are related to how the event menu will be displayed on the event web page."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:59
+msgid ":guilabel:`Limit Registrations`: when enabled, this setting caps the attendee registrations to a specified amount"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:61
+msgid ":guilabel:`Limit Registrations`: when enabled, this setting caps the attendee registrations to a specified amount"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:73
 msgid ":guilabel:`Website Submenu`: enables a submenu on the event's website. When this checkbox is ticked, every other checkbox in this series is automatically ticked, as well. Then, choose to untick (deselect) any of the checkbox options, as desired."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:61
+msgid ":guilabel:`Autoconfirmation`: when enabled, this setting skips the confirmation request that gets sent by email to event registrants, and automatically confirms their registration."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:63
+msgid ":guilabel:`Autoconfirmation`: when enabled, this setting skips the confirmation request that gets sent by email to event registrants, and automatically confirms their registration."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:76
 msgid ":guilabel:`Tracks Menu Item`: adds a submenu item to navigate to a page displaying all planned tracks for the event."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:64
+msgid "Once the fields in the event form are set, move on to the :guilabel:`Tickets` and :guilabel:`Communication` tabs, and optionally the :guilabel:`Questions` tab if registrations should require additional information."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:66
+msgid "Once the fields in the event form are set, move on to the :guilabel:`Tickets` and :guilabel:`Communication` tabs, and optionally the :guilabel:`Questions` tab if registrations should require additional information."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:78
 msgid ":guilabel:`Track Proposals Menu Item`: adds a submenu item to navigate to a page, in which visitors can fill out a form to propose a track (talk, lecture, presentation, etc.) to happen during the event."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:69
+msgid "Add and sell event tickets"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:71
+msgid "Add and sell event tickets"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:81
 msgid ":guilabel:`Booth Menu Item`: adds a submenu item that takes visitors to a separate page, where an event booth can be purchased. Event booths can be customized and configured in the :guilabel:`Booths` tab of the event template form, from the *Booth Categories* page (:menuselection:`Events app --> Configuration --> Booth Categories`)."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:71
+msgid "Under the :guilabel:`Tickets` tab, add line items for each type of ticket the event plans to offer. Here, determine the ticket price, start/end dates for registrations, as well as the maximum number of tickets that can be sold."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:73
+msgid "Under the :guilabel:`Tickets` tab, add line items for each type of ticket the event plans to offer. Here, determine the ticket price, start/end dates for registrations, as well as the maximum number of tickets that can be sold."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:87
 msgid "First, users **must** create a booth product with the required *Event Booth* option set as the :guilabel:`Product Type` on the product form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:75
+msgid "If selling tickets isn't necessary for the event, a simple :guilabel:`Registration` button will be displayed on the event's page by default."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:77
+msgid "If selling tickets isn't necessary for the event, a simple :guilabel:`Registration` button will be displayed on the event's page by default."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:90
 msgid ":guilabel:`Exhibitors Menu Item`: adds a submenu item that takes visitors to a separate page, showcasing all the exhibitors related to that specific event. Icons representing those exhibitors are also found on the footer of every event-specific web page, as well."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:93
 msgid ":guilabel:`Community`: adds a submenu item allowing attendees to access pre-configured virtual community rooms to meet with other attendees, and discuss various topics related to the event. When this checkbox is ticked, the :guilabel:`Allow Room Creation` feature becomes available."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:83
+msgid "Send automated emails, text, and social posts to event attendees"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:85
+msgid "Send automated emails, text, and social posts to event attendees"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:96
 msgid ":guilabel:`Allow Room Creation`: allow visitors to create community rooms of their own."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:85
+msgid "Under the :guilabel:`Communication` tab, configure personalized email, SMS, or social post messages to keep in touch with event attendees. For each communication, click :guilabel:`Add a line` in the :guilabel:`Communication` tab form, and then choose (or create) a communications template using the drop-down menu under the :guilabel:`Template` column."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:87
+msgid "Under the :guilabel:`Communication` tab, configure personalized email, SMS, or social post messages to keep in touch with event attendees. For each communication, click :guilabel:`Add a line` in the :guilabel:`Communication` tab form, and then choose (or create) a communications template using the drop-down menu under the :guilabel:`Template` column."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:97
 msgid ":guilabel:`Register Button`: adds a button at the end of the event submenu that takes visitors to the event-specific registration page when clicked."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:90
+msgid "Next, define the :guilabel:`Interval` and :guilabel:`Unit` of time for how often the communication should be sent; use these time fields to specify the frequency of :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, or :guilabel:`Months` communications should be sent. There is also the option to send communications `Immediately` after a specified :guilabel:`Trigger` is activated."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:92
+msgid "Next, define the :guilabel:`Interval` and :guilabel:`Unit` of time for how often the communication should be sent; use these time fields to specify the frequency of :guilabel:`Hours`, :guilabel:`Days`, :guilabel:`Weeks`, or :guilabel:`Months` communications should be sent. There is also the option to send communications `Immediately` after a specified :guilabel:`Trigger` is activated."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:100
 msgid "Once the desired checkboxes have been ticked, select an appropriate :guilabel:`Timezone` for the event from the available drop-down menu."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:96
+msgid "In the last column, determine the :guilabel:`Trigger` which controls how and when the communication is sent. For this action, choose between: :guilabel:`Before the event`, :guilabel:`After each registration`, or :guilabel:`After the event`."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:98
+msgid "In the last column, determine the :guilabel:`Trigger` which controls how and when the communication is sent. For this action, choose between: :guilabel:`Before the event`, :guilabel:`After each registration`, or :guilabel:`After the event`."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:103
 msgid "Then, for organizational purposes, there is the option to add :guilabel:`Tags` to this event template."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:106
 msgid "There is also the option to :guilabel:`Limit Registrations` to this specific event template by ticking that checkbox. If ticked, proceed to enter the number of :guilabel:`Attendees` this template should be limited to."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:105
+msgid "Attach a questionnaire to event registrations"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:107
+msgid "Attach a questionnaire to event registrations"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:110
 msgid "Beneath those general information fields at the top of the event template form, there are five tabs:"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:107
+msgid "Implementing a questionnaire during event sign up is an effective way to gauge the wants, needs, and interests of the event's attendees ahead of time. Questionnaires also act as informative analytics tools for reporting periods before (or after) events take place."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:109
+msgid "Implementing a questionnaire during event sign up is an effective way to gauge the wants, needs, and interests of the event's attendees ahead of time. Questionnaires also act as informative analytics tools for reporting periods before (or after) events take place."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:112
 msgid ":ref:`Tickets <events/event-tickets>`"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:111
+msgid "To create a questionnaire, from the :guilabel:`Events` application, navigate to :menuselection:`Configuration --> Settings` and then enable the :guilabel:`Questions` setting."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:113
+msgid "To create a questionnaire, from the :guilabel:`Events` application, navigate to :menuselection:`Configuration --> Settings` and then enable the :guilabel:`Questions` setting."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:113
 msgid ":ref:`Communication <events/event-communication>`"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:114
+msgid "With the setting enabled, questions and answers can now be added (and recorded) under the the :guilabel:`Questions` tab back on the event form. For each question, specify if it should only be asked once with the :guilabel:`Ask once per order` checkbox, or if the question requires a :guilabel:`Mandatory Answer`, which will make the question required for registration."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:116
+msgid "With the setting enabled, questions and answers can now be added (and recorded) under the the :guilabel:`Questions` tab back on the event form. For each question, specify if it should only be asked once with the :guilabel:`Ask once per order` checkbox, or if the question requires a :guilabel:`Mandatory Answer`, which will make the question required for registration."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:114
 msgid ":ref:`Booths <event_templates/event_template/booths>`"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:120
+msgid "If the :guilabel:`Once per order` checkbox is enabled, then a single registration for 3 event attendees will show the questionnaire only once."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:122
+msgid "If the :guilabel:`Once per order` checkbox is enabled, then a single registration for 3 event attendees will show the questionnaire only once."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:115
 msgid ":ref:`Questions <events/event-questions>`"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:123
+msgid "There are two :guilabel:`Question Types` to choose from: :guilabel:`Selection` and :guilabel:`Text Input`. The :guilabel:`Selection` type, allows attendees to select an answer from pre-configured options, which are entered in the :guilabel:`Answers` tab below. The :guilabel:`Text Input` type allows attendees to write in their own answer to the question in a text box."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:125
+msgid "There are two :guilabel:`Question Types` to choose from: :guilabel:`Selection` and :guilabel:`Text Input`. The :guilabel:`Selection` type, allows attendees to select an answer from pre-configured options, which are entered in the :guilabel:`Answers` tab below. The :guilabel:`Text Input` type allows attendees to write in their own answer to the question in a text box."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:116
 msgid ":ref:`Notes <events/event-notes>`"
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:121
 msgid "Booths tab"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:133
+msgid "Log internal notes or add ticket instructions"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:135
+msgid "Log internal notes or add ticket instructions"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:123
 msgid "The :guilabel:`Booths` tab on an event template form is the only tab that differentiates itself from a standard event form, where the other tabs (:guilabel:`Tickets`, :guilabel:`Communication`, :guilabel:`Questions`, and :guilabel:`Notes`) are present and configured using the same process. For more information about those tabs, refer to the :doc:`create_events` documentation."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:135
+msgid "In the :guilabel:`Notes` tab, there is the option to add a :guilabel:`Note` and/or :guilabel:`Ticket instructions`."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:137
+msgid "In the :guilabel:`Notes` tab, there is the option to add a :guilabel:`Note` and/or :guilabel:`Ticket instructions`."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:129
 msgid "To create a booth or booth category, an event booth product **must** be created in the database first, with the *Product Type* set to *Event Booth*. **Only** products with that specific configuration can be selected in the required *Product* field of a booth or booth category form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:138
+msgid "Under :guilabel:`Note`, internal notes can be left (such as: to-do lists, contact information, etc.) for event staff to reference. In the :guilabel:`Ticket instructions` field, helpful information for staff and attendees can be shared (like, directions to the venue, opening/closing times, etc.)"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:140
+msgid "Under :guilabel:`Note`, internal notes can be left (such as: to-do lists, contact information, etc.) for event staff to reference. In the :guilabel:`Ticket instructions` field, helpful information for staff and attendees can be shared (like, directions to the venue, opening/closing times, etc.)"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:134
 msgid "Event booths can be created and customized in two ways in the Odoo *Events* application. Either in the :guilabel:`Booths` tab of an event template form, or by navigating to :menuselection:`Events app --> Configuration --> Booth Categories`, and click :guilabel:`New`."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:144
+msgid "Type `/` in either text field (:guilabel:`Note` or :guilabel:`Ticket instructions`) to reveal a sub-menu of :guilabel:`Structure` options. These options provide various formatting options to ensure vital internal information is organized for event staff to review."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:146
+msgid "Type `/` in either text field (:guilabel:`Note` or :guilabel:`Ticket instructions`) to reveal a sub-menu of :guilabel:`Structure` options. These options provide various formatting options to ensure vital internal information is organized for event staff to review."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:138
 msgid "To add a booth from the :guilabel:`Booths` tab of an event template form, click :guilabel:`Add a line`. Doing so reveals a blank :guilabel:`Create Booths` pop-up window."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:-1
 msgid "A Create Booths pop-up window in the Odoo Events application."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:153
+msgid "Invite attendees to the event"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:155
+msgid "Invite attendees to the event"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:145
 msgid "Start by providing a :guilabel:`Name` for this booth in the corresponding field at the top of the pop-up window."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:155
+msgid "To invite people to an event, click the :guilabel:`Invite` button located in the top left corner of the event form."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:157
+msgid "To invite people to an event, click the :guilabel:`Invite` button located in the top left corner of the event form."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:148
 msgid "Then, select an appropriate :guilabel:`Booth Category` from the drop-down field below. Booth categories can be created and modified from the *Booth Categories* page in the *Events* application, which is accessible by navigating to :menuselection:`Events app --> Configuration --> Booth Categories`."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:158
+msgid "Inside the invite template form, are options to sent email or SMS invites. Each message can be fully customized, and recipients can be added."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:160
+msgid "Inside the invite template form, are options to sent email or SMS invites. Each message can be fully customized, and recipients can be added."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:154
 msgid "A :guilabel:`Booth Category` can be created directly from this field on the :guilabel:`Create Booths` pop-up window. To accomplish that, type the name of the new booth category in the :guilabel:`Booth Category` field, and select either :guilabel:`Create` or :guilabel:`Create and edit...` from the resulting drop-down menu."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:161
+msgid "Adding a :guilabel:`Subject` line for the invite message is required, but the :guilabel:`Preview Text` field is optional. The :guilabel:`Preview Text` is a catchy preview sentence meant to encourage recipients to open the email."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:163
+msgid "Adding a :guilabel:`Subject` line for the invite message is required, but the :guilabel:`Preview Text` field is optional. The :guilabel:`Preview Text` is a catchy preview sentence meant to encourage recipients to open the email."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:159
 msgid "Clicking :guilabel:`Create` merely creates the category, which can (and should be) customized at a later date. Clicking :guilabel:`Create and edit...` reveals a new :guilabel:`Create Booth Category` pop-up window, from which the category can be configured in a number of different ways."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:166
+msgid "In most cases, the :guilabel:`Preview Text` is displayed next to the subject. Keep this field empty to ensure the first characters of the email content appear, instead."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:168
+msgid "In most cases, the :guilabel:`Preview Text` is displayed next to the subject. Keep this field empty to ensure the first characters of the email content appear, instead."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:-1
 msgid "The Create Booth Category pop-up window in the Odoo Events application."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:170
+msgid "Select invitees and configure recipient filters"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:172
+msgid "Select invitees and configure recipient filters"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:167
 msgid "From this pop-up window, proceed to name the :guilabel:`Booth Category`, modify its :guilabel:`Booth Details` settings, configure its :guilabel:`Sponsorship` options (if applicable), and leave an optional :guilabel:`Description` to explain any pertinent details related to this specific category of booths."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:172
+msgid "In the middle of the invitation form, find and click the :guilabel:`Recipients` field, to reveal a drop-down menu of recipient options. These choices represent where Odoo will find the desired recipients' information."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:174
+msgid "In the middle of the invitation form, find and click the :guilabel:`Recipients` field, to reveal a drop-down menu of recipient options. These choices represent where Odoo will find the desired recipients' information."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:172
 msgid "There is also the option to add a photo/visual representation of the booth category, via the :guilabel:`(camera)` icon in the upper-right corner."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:176
+msgid "Once an option from this menu is selected (e.g. :guilabel:`Applicant`, :guilabel:`Contact`, :guilabel:`Event Registration`, :guilabel:`Lead/Opportunity`, etc.), Odoo will send the invitation to all recipients who match that initial rule. Additional rules can be added to narrow down the target recipients, by clicking :guilabel:`Add Filter`."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:178
+msgid "Once an option from this menu is selected (e.g. :guilabel:`Applicant`, :guilabel:`Contact`, :guilabel:`Event Registration`, :guilabel:`Lead/Opportunity`, etc.), Odoo will send the invitation to all recipients who match that initial rule. Additional rules can be added to narrow down the target recipients, by clicking :guilabel:`Add Filter`."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:175
 msgid "When all desired configurations are complete, click the :guilabel:`Save & Close` button."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:177
 msgid "The same configurations and options are available by navigating to :menuselection:`Events app --> Configuration --> Booth Categories`, and clicking :guilabel:`New`."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:185
+msgid "Clicking :guilabel:`Add Filter` reveals three fields, formatted like an equation. To reveal the sub-menu options, click each field, and make the desired selections, until the preferred configuration has been acheived. The number of :guilabel:`Records` that match the rule(s) are indicated to the right of the :guilabel:`Recipients` field, in green."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:187
+msgid "Clicking :guilabel:`Add Filter` reveals three fields, formatted like an equation. To reveal the sub-menu options, click each field, and make the desired selections, until the preferred configuration has been acheived. The number of :guilabel:`Records` that match the rule(s) are indicated to the right of the :guilabel:`Recipients` field, in green."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:180
 msgid "Once the desired :guilabel:`Booth Category` is selected, the remaining fields on the :guilabel:`Create Booths` pop-up window (:guilabel:`Currency`, :guilabel:`Product`, and :guilabel:`Price`) autopopulate, based on information configured for that selected :guilabel:`Booth Category`."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:194
+msgid "To the right of each rule, are :guilabel:`x`, :guilabel:`+`, and :guilabel:`...` icons. The :guilabel:`x` icon deletes a specific node (line) of the rule. The :guilabel:`+` icon adds a node (line) to the rule. And, the :guilabel:`...` icon adds a branch to the node. A branch means two additional, indented sub-nodes are added to the rule, providing even more specificity to the line above it."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:196
+msgid "To the right of each rule, are :guilabel:`x`, :guilabel:`+`, and :guilabel:`...` icons. The :guilabel:`x` icon deletes a specific node (line) of the rule. The :guilabel:`+` icon adds a node (line) to the rule. And, the :guilabel:`...` icon adds a branch to the node. A branch means two additional, indented sub-nodes are added to the rule, providing even more specificity to the line above it."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:186
 msgid "These fields **cannot** be modified from the :guilabel:`Create Booths` pop-up window. They can only be modified from the specific booth category form page."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:201
+msgid "Build a custom event invite"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:203
+msgid "Build a custom event invite"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:189
 msgid "When all desired configurations are complete, click :guilabel:`Save & Close` to save the booth, and return to the event template form. Or, click :guilabel:`Save & New` to save the booth, and start creating another booth on a fresh :guilabel:`Create Booths` pop-up window. Click :guilabel:`Discard` to remove all changes, and return to the event template form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:203
+msgid "In the :guilabel:`Mail Body` tab, there are a number of pre-configured message templates to choose from. Select the desired template, and modify every element of its design details with Odoo's drag-and-drop web builder, located on the right sidebar."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:205
+msgid "In the :guilabel:`Mail Body` tab, there are a number of pre-configured message templates to choose from. Select the desired template, and modify every element of its design details with Odoo's drag-and-drop web builder, located on the right sidebar."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:194
 msgid "Once the booth has been saved, it appears in the :guilabel:`Booths` tab on the event template form."
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:197
 msgid "Use event templates"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:212
+msgid "To build an email event invite from scratch, select the :guilabel:`Plain Text` template, and Odoo will provide a blank email canvas, which can be customized either by using the frontend rich text editor that accepts slash (`/`) commands, or the XML code editor when :ref:`developer mode <developer-mode>` is engaged and the :guilabel:`</>` icon is pressed."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:214
+msgid "To build an email event invite from scratch, select the :guilabel:`Plain Text` template, and Odoo will provide a blank email canvas, which can be customized either by using the frontend rich text editor that accepts slash (`/`) commands, or the XML code editor when :ref:`developer mode <developer-mode>` is engaged and the :guilabel:`</>` icon is pressed."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:199
 msgid "Once an event template is complete, it is accessible on all event forms in the Odoo *Events* application."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:218
+msgid "The :guilabel:`Mail Body` tab (and template options), are only available if the event invite :guilabel:`Mailing Type` is designated as an :guilabel:`Email`. If :guilabel:`SMS` is the :guilabel:`Mailing Type`, a :guilabel:`SMS Content` tab (consisting of a blank text space), is available, instead."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:220
+msgid "The :guilabel:`Mail Body` tab (and template options), are only available if the event invite :guilabel:`Mailing Type` is designated as an :guilabel:`Email`. If :guilabel:`SMS` is the :guilabel:`Mailing Type`, a :guilabel:`SMS Content` tab (consisting of a blank text space), is available, instead."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:202
 msgid "To use an event template, navigate to the :menuselection:`Events app` and click :guilabel:`New` to open a new event form."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:224
+msgid "Modify event invite settings"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:226
+msgid "Modify event invite settings"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:205
 msgid "From the event form, click the :guilabel:`Template` field to reveal all the existing event templates in the database. They appear in the same order as they are listed in on the *Event Templates* page (:menuselection:`Events app --> Configuration --> Event Templates`)."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:226
+msgid "The options under the :guilabel:`Settings` tab are different, depending on the specified :guilabel:`Mailing Type`."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:228
+msgid "The options under the :guilabel:`Settings` tab are different, depending on the specified :guilabel:`Mailing Type`."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:209
 msgid "Select the desired event template from the :guilabel:`Template` drop-down field on the event form. Pre-configured settings automatically populate the event form, saving time during the event creation process."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:229
+msgid "If the :guilabel:`Email` option is selected as the :guilabel:`Mailing Type`, an employee can be designated as the :guilabel:`Responsible`, meaning that person is the one responsible for this particular invite message. :guilabel:`Send From` and :guilabel:`Reply To` email aliases can be designated here, as well."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:231
+msgid "If the :guilabel:`Email` option is selected as the :guilabel:`Mailing Type`, an employee can be designated as the :guilabel:`Responsible`, meaning that person is the one responsible for this particular invite message. :guilabel:`Send From` and :guilabel:`Reply To` email aliases can be designated here, as well."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_templates.rst:213
 msgid "Any of these pre-configured settings related to the selected event template chosen in the :guilabel:`Template` field on an event form can be modified, as desired."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:234
+msgid "Also, if any specific documents are required (or helpful) for this event invite, they can be sent along with this email, by clicking :guilabel:`ATTACH A FILE`, and adding the appropriate document(s)."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:236
+msgid "Also, if any specific documents are required (or helpful) for this event invite, they can be sent along with this email, by clicking :guilabel:`ATTACH A FILE`, and adding the appropriate document(s)."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:5
 msgid "Odoo *Events* provides the ability to create, schedule, and manage talks, lectures, demonstrations, presentations, etc., which known as *Tracks* in Odoo."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:238
+msgid "If the :guilabel:`SMS` option is selected as the :guilabel:`Mailing Type`, a :guilabel:`Responsible` can be designated, and the option to :guilabel:`Include an opt-out link` is available."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:240
+msgid "If the :guilabel:`SMS` option is selected as the :guilabel:`Mailing Type`, a :guilabel:`Responsible` can be designated, and the option to :guilabel:`Include an opt-out link` is available."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:8
 msgid "The Odoo *Events* application also has an option to allow event attendees to propose talks (tracks) for an event, which can then be approved (or disapproved)."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:242
+msgid "Send event invitations to recipients"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:244
+msgid "Send event invitations to recipients"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:14
 msgid "First, there are some settings that need to be enabled, in order to get the most out of event tracks."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:244
+msgid "If the selected :guilabel:`Mailing Type` is :guilabel:`Email`, there are three options to send the invite: :guilabel:`Send`, :guilabel:`Schedule`, and :guilabel:`Test`."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:246
+msgid "If the selected :guilabel:`Mailing Type` is :guilabel:`Email`, there are three options to send the invite: :guilabel:`Send`, :guilabel:`Schedule`, and :guilabel:`Test`."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:17
 msgid "To do that, navigate to :menuselection:`Events app --> Configuration --> Settings`, and tick the checkbox beside the :guilabel:`Schedule & Tracks` setting. Doing so provides the ability to manage and publish an event schedule with various tracks."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:247
+msgid "The :guilabel:`Send` option sends the invite right away. The :guilabel:`Schedule` option reveals a pop-up, in which a scheduled date/time can be selected for the email to be sent. The :guilabel:`Test` option reveals a :guilabel:`Test Mailing` pop-up, where specific recipient email addresses can be entered for Odoo to send them the current version of the mailing for review before officially sending it out to prospective event attendees."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:249
+msgid "The :guilabel:`Send` option sends the invite right away. The :guilabel:`Schedule` option reveals a pop-up, in which a scheduled date/time can be selected for the email to be sent. The :guilabel:`Test` option reveals a :guilabel:`Test Mailing` pop-up, where specific recipient email addresses can be entered for Odoo to send them the current version of the mailing for review before officially sending it out to prospective event attendees."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:21
 msgid "Also, when that setting checkbox is ticked, two additional setting options appear beneath it: :guilabel:`Live Broadcast` and :guilabel:`Event Gamification`."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:253
+msgid "If the selected :guilabel:`Mailing Type` is :guilabel:`SMS`, there are four options to send the invite: :guilabel:`Put in Queue`, :guilabel:`Send Now`, :guilabel:`Schedule`, and :guilabel:`Test`."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:255
+msgid "If the selected :guilabel:`Mailing Type` is :guilabel:`SMS`, there are four options to send the invite: :guilabel:`Put in Queue`, :guilabel:`Send Now`, :guilabel:`Schedule`, and :guilabel:`Test`."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:-1
 msgid "The Schedule and Tracks setting in the Odoo Events app, along with corresponding options."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:256
+msgid "The :guilabel:`Put in Queue` option schedules an SMS message to all recipients (that match the designated rules, if any) in the near future. Clicking :guilabel:`Put in Queue` reveals a pop-up, requiring confirmation. When confirmed, a blue banner appears on the event invite template form, indicating that the SMS will be sent later that day."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:258
+msgid "The :guilabel:`Put in Queue` option schedules an SMS message to all recipients (that match the designated rules, if any) in the near future. Clicking :guilabel:`Put in Queue` reveals a pop-up, requiring confirmation. When confirmed, a blue banner appears on the event invite template form, indicating that the SMS will be sent later that day."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:28
 msgid "The :guilabel:`Live Broadcast` option provides the ability to air tracks online through a *YouTube* integration."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:262
+msgid "The :guilabel:`Send Now`, :guilabel:`Schedule`, and :guilabel:`Test` options all function the same way for both :guilabel:`Mailing Type` options."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:264
+msgid "The :guilabel:`Send Now`, :guilabel:`Schedule`, and :guilabel:`Test` options all function the same way for both :guilabel:`Mailing Type` options."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:31
 msgid "The :guilabel:`Event Gamification` options provides the ability to share a quiz with track attendees once the track is over, in order to test how much they learned."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:266
+msgid "Publish events"
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:268
+msgid "Publish events"
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:35
 msgid "With the :guilabel:`Event Gamification` setting enabled, an :guilabel:`Add Quiz` button appears on track forms, providing the ability to :ref:`quickly create a quiz <events/track-add-quiz>` specific to the topic related to that particular track."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:268
+msgid "Until an event is published, it will remain hidden from public view on the website and registering for it will not be possible. To publish an event, navigate to it either from the backend of Odoo through the :guilabel:`Events` application, or access the hidden event page through the frontend as either a priveliged user or administrator."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:270
+msgid "Until an event is published, it will remain hidden from public view on the website and registering for it will not be possible. To publish an event, navigate to it either from the backend of Odoo through the :guilabel:`Events` application, or access the hidden event page through the frontend as either a priveliged user or administrator."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:39
 msgid "Once all desired settings have been enabled, be sure to click the :guilabel:`Save` button in the upper-left corner of the :guilabel:`Settings` page."
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:273
+msgid "If navigating from the backend, go to the event form, and click the :guilabel:`Go to Website` smart button to reach the event page on the website (on the frontend). If starting from the frontend , simply navigate to the event page that needs to be published."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:275
+msgid "If navigating from the backend, go to the event form, and click the :guilabel:`Go to Website` smart button to reach the event page on the website (on the frontend). If starting from the frontend, simply navigate to the event page that needs to be published."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
+<<<<<<< 17.0
 #: ../../content/applications/marketing/events/event_tracks.rst:43
 msgid "Event Tracks page"
+||||||| 058e379a40668c406db24708b68c973e848bc7f9
+#: ../../content/applications/marketing/events/event_essentials.rst:277
+msgid "No matter the route, an event page can only be published from the frontend. In the upper right corner of the event page on the website, toggle the switch from the red :guilabel:`Unpublished` status to the green :guilabel:`Published` status. Doing so instantly makes the event page accessible to the public on the website."
+=======
+#: ../../content/applications/marketing/events/event_essentials.rst:279
+msgid "No matter the route, an event page can only be published from the frontend. In the upper right corner of the event page on the website, toggle the switch from the red :guilabel:`Unpublished` status to the green :guilabel:`Published` status. Doing so instantly makes the event page accessible to the public on the website."
+>>>>>>> fbcc3557118b77fb877de408f67b13bcc8d9f662
 msgstr ""
 
 #: ../../content/applications/marketing/events/event_tracks.rst:45
